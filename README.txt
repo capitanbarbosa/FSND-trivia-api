@@ -41,6 +41,7 @@ GET '/categories'
 - Fetches a dictionary of categories in which the keys are the ids and the value is the corresponding string of the category
 - Request Arguments: None
 - Returns: An object with a single key, categories, that contains a object of id: category_string key:value pairs. 
+
 {'1' : "Science",
 '2' : "Art",
 '3' : "Geography",
@@ -52,6 +53,7 @@ GET '/categories'
 GET '/questions'
 - Fetches the list of all questions
 - Returns: Current questions in list, categories, current category, success value and number of questions in total.
+
 {
     "categories": {
     "1": "Science", 
